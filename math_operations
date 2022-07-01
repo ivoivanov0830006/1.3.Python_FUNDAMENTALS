@@ -1,0 +1,45 @@
+# a = 51
+# b = 2
+# #1. Sabirane
+# result = a + b
+# #2. Izvajdane
+# result = a - b
+# #3. Umnojenie
+# result = a * b
+# #4. Delenie (rezultata vinagi e float)
+# result = a / b
+# #5. Celochisleno delenie ( 2*25 = 50, t.e. 25 e poslednata cqla stoinost na koqto moje da se razdeli 51)
+# result = a // b
+# #6. Modulno delenie (ostataka ot celochislenoto delenie 51=2*25 + 1)
+# result = a % b
+# #7. Stepenuvane
+# result = a ** b
+# #8. Zakraglqne do sledvashto (po-golqmo) cqlo chislo
+# up = math.ceil(23.45)         = 24
+# #9. Zakraglqne do predishno (po-malko) cqlo chislo
+# down = math.floor(45.67)      = 45
+# #10. Absoliutna stoinost
+# example1 = abs(-50)           = 50
+# example2 = abs(50)            = 50
+# #11. Zakraglqne do 2 znaka sled desetichniq znak:
+# rounded = round(45.67852, 2)  = 45.68
+# #12. Formatirane do 2 znaka
+# number = 123.456
+# print(f"{number:.2f}")        = 123.46
+# print(123456 % 100)           = 56
+# #13. Chetno / Nechetno
+# if number % 2 != 0:
+#     print("nechetno")
+# else:
+#     print("chetno")
+# #14.
+#
+#
+# # import math !!!!! bibliotekata se izpisva predi samata funkcionalnost !!!!!!!
+# # print(math.pi)
+# from math import pi
+# print(pi)
+# #Importirane na koknkretna biblioteka
+# from math import floor, ceil
+# print(ceil(4.5151413))
+# print(floor(5.1241131))
