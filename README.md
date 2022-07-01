@@ -1,1 +1,5 @@
-# 1.1.first_steps_7_May_L
+b1 = float(input())
+b2 = float(input())
+h = float(input())
+area = ((b1 + b2) * h/2)
+print("{:.2f}".format(area))
