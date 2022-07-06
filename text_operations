@@ -1,0 +1,24 @@
+#some_text = "text"
+#print(some_text)
+#print(some_text[3])   tova e ravno "t"
+#print(some_text[-2])   tova e ravno "x"
+#
+#some_text = "te xt"
+#for index, symbol in enumerate(some_text):
+#    print(f"Index = {index}, Symbol = {symbol}")  tuk shte ni se otpechatat na "te xt" i simvolite i index-ite
+#                                                   t.e nomeraciqta
+
+text = input()
+for index in range(0, len(text)):
+    print(text[index])
+
+# OR
+
+
+text = input()
+for symbol in text:
+   print(symbol)
+   
+   
+#Напишете програма, която чете текст (стринг), 
+#въведен от потребителя и печата всеки символ от текста на отделен ред.
