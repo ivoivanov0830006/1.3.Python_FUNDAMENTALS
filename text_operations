@@ -22,3 +22,10 @@ for symbol in text:
    
 #Напишете програма, която чете текст (стринг), 
 #въведен от потребителя и печата всеки символ от текста на отделен ред.
+
+a = 2
+b = 4
+c = 0
+d = 1
+password_number = a*1000+b*100+c*10+d                       # 2401
+print(f"\nPassword: {password_number}")                     # password will be printed on new line
