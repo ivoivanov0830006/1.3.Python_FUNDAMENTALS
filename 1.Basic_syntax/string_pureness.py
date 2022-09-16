@@ -11,6 +11,15 @@ for string in range(int(input())):
         print(f"{text} is pure.")
     else:
         print(f"{text} is not pure!")
+        
+# --------------------------- Another solution ----------------------------
+#
+# for string in range(int(input())):
+#     text = input()
+#     if "," in text or "." in text or "_" in text:
+#         print(f"{text} is pure.")
+#     else:
+#         print(f"{text} is not pure!"
 
 # You will be given number n. After that, you'll receive different strings n times.
 # Your task is to check if the given strings are pure, meaning that they do NOT consist
