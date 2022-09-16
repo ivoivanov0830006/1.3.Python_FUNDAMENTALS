@@ -5,6 +5,13 @@ for number in range(boundary, 0, -1):
     if number % divisor == 0:
         print(number)
         break
+        
+# --------------------------- Another solution ----------------------------
+
+# divisor = int(input())
+# boundary = int(input())
+# 
+# result = boundary // divisor * divisor
 
 
 # On the first line, you will be given a positive number, which will serve as a divisor.
