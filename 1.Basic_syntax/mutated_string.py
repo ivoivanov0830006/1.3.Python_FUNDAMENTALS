@@ -14,7 +14,17 @@ for char in range(len(word_1)):
     else:
         last_word = ""
         continue
- 
+
+ # --------------------------- Another solution (REPLACE + SLICES) ----------------------------
+# word_1 = input()
+# word_2 = input()
+#
+# for char in range(len(word_1)):
+#     if word_1[char] != word_2[char]:
+#         word_1 = word_1[:char] + word_1[char:char + 1].replace(word_1[char], word_2[char], 1) + word_1[char + 1:]
+#         print(word_1)
+
+
 # --------------------------- Another solution (LIST) ----------------------------
 # word_1 = input()
 # word_2 = input()
@@ -24,6 +34,7 @@ for char in range(len(word_1)):
 #     if new_list[char] != word_2[char]:
 #         new_list[char] = word_2[char]
 #         print("".join(new_list))
+
 
 # You will be given two strings. Transform the first string into the second one, letter by letter,
 # starting from the first one. After each interaction, print the resulting string only if it is unique.
