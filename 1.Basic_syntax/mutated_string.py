@@ -4,7 +4,7 @@ new_word = ""
 last_word = ""
 n = 1
 
-for char in range(len(word_1)):
+for _ in range(len(word_1)):
     new_word += word_2[:n] + word_1[n:]
     n += 1
     if new_word != word_1 and new_word != last_word:
@@ -12,7 +12,7 @@ for char in range(len(word_1)):
         last_word = new_word
         new_word = ""
     else:
-        last_word = ""
+        new_word = ""
         continue
 
  # --------------------------- Another solution (REPLACE + SLICES) ----------------------------
