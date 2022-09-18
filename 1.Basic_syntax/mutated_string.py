@@ -14,6 +14,16 @@ for char in range(len(word_1)):
     else:
         last_word = ""
         continue
+ 
+# --------------------------- Another solution (LIST) ----------------------------
+# word_1 = input()
+# word_2 = input()
+# new_list = list(word_1)
+#
+# for char in range(len(word_1)):
+#     if new_list[char] != word_2[char]:
+#         new_list[char] = word_2[char]
+#         print("".join(new_list))
 
 # You will be given two strings. Transform the first string into the second one, letter by letter,
 # starting from the first one. After each interaction, print the resulting string only if it is unique.
