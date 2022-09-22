@@ -1,15 +1,16 @@
 year = int(input())
 unique_year = False
-current_year = 0
+current_year = year
 
 while not unique_year:
+    year += 1
     current_year = str(year)
     set_year = set()
     for symbol in range(0, len(current_year)):
-        set_year.add(str(current_year)[symbol])
+        set_year.add(current_year[symbol])
 
     unique_year = len(set_year) == len(str(current_year))
-    year += 1
+
 print(current_year)
 
 
