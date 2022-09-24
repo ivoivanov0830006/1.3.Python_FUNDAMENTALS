@@ -7,13 +7,14 @@ for number in range(boundary, 0, -1):
         break
         
 # --------------------------- Another solution ----------------------------
-
+#
 # divisor = int(input())
 # boundary = int(input())
 # 
 # result = boundary // divisor * divisor
-
-
+#
+# --------------------------- Problem to resolve ----------------------------
+#
 # On the first line, you will be given a positive number, which will serve as a divisor.
 # On the second line, you will receive a positive number that will be the boundary.
 # You should find the largest integer N, that is:
