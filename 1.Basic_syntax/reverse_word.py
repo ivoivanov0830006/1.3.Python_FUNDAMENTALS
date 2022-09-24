@@ -12,4 +12,6 @@ print(word[::-1])
 #     reversed_word += word[i]
 # print(reversed_word)
 
+# --------------------------- Problem to resolve ----------------------------
+
 # Write a program that receives a single word, reverses it, and prints it.
