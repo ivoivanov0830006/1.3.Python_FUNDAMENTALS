@@ -11,19 +11,19 @@ for number in range(1, numbers + 1):
 
 
 # --------------------------- Another solution ----------------------------
-
-numbers = int(input())
-
-for number in range(1, numbers + 1):
-    result = False
-    total_sum = 0
-    digits = number
-    while digits > 0:
-        total_sum += digits % 10
-        digits = int(digits / 10)
-    if total_sum == 5 or total_sum == 7 or total_sum == 11:
-        result = True
-    print(f"{number} -> {result}")
+#
+# numbers = int(input())
+#
+# for number in range(1, numbers + 1):
+#     result = False
+#     total_sum = 0
+#     digits = number
+#     while digits > 0:
+#         total_sum += digits % 10
+#         digits = int(digits / 10)
+#     if total_sum == 5 or total_sum == 7 or total_sum == 11:
+#         result = True
+#     print(f"{number} -> {result}")
 
 # Write a program that reads an integer n. Then, for all numbers in the range [1, n],
 # prints the number and if it is special or not (True / False). A number is special
