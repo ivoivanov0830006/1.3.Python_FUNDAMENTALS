@@ -11,7 +11,10 @@ for order in range(orders):
         continue
 print(f"Total: ${total_price:.2f}")
 
-# You work at a coffee shop, and your job is to place orders to the distributors. ]
+
+# --------------------------- Problem to resolve ----------------------------
+#
+# You work at a coffee shop, and your job is to place orders to the distributors.
 # Thus, you want to know the price of each order. On the first line, you will receive integer N -
 # the number of orders the shop will receive. For each order, you will receive the following information:
 #   - Price per capsule - a floating-point number in the range [0.01…100.00]
