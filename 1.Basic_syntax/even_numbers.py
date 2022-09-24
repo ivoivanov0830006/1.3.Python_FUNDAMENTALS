@@ -10,7 +10,8 @@ for _ in range(total_numbers):
 else:
     print("All numbers are even.")
 
-    
+# --------------------------- Problem to resolve ----------------------------
+#
 # Write a program that receives a number n on the first line. On the following n lines, 7
 # it receives different integer numbers. If the program receives an odd number,
 # print "{num} is odd!" and end the program. Otherwise, if all numbers given are even,
