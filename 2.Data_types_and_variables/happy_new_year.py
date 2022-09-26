@@ -24,7 +24,9 @@ print(current_year)
 #         result = "".join(str(x) for x in digits)
 #         print(result)
 #         break
-
+#
+# --------------------------- Problem to resolve ----------------------------
+#
 # You are saying goodbye to your best friend: "See you next happy year".
 # Happy Year is the year with only distinct digits, for example, 2018.
 # Write a program that receives an integer number and finds the next happy year.
