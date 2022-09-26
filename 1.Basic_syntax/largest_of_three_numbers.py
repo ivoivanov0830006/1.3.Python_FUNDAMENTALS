@@ -18,6 +18,8 @@ print(max(first_number, second_number, third_number))
 #     print(third_num)
 
 
+# --------------------------- Problem to resolve ----------------------------
+#
 # Write a program that receives three whole numbers and prints the largest one.
 # Input	                Output
 # 3                     5
