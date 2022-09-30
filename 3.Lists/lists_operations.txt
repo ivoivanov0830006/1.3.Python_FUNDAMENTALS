@@ -105,3 +105,11 @@ my_letters_list = ["k", "a", "c", "m"]
 #
 # Result
 # [2, 3, 4, 2, 2, 2, 2]
+
+
+# ---------------------------------- COPY -----------------------------------------
+#
+# my_second_list = my_list.copy()             # because if it is not copy, two lists will
+# my_second_list.remove(2)                    # be modified simultaneously
+# print(my_list)
+# print(my_second_list)
