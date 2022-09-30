@@ -63,3 +63,10 @@ my_letters_list = ["k", "a", "c", "m"]
 # Result
 # [1, 2, 3, 4, 'b', 'Pesho', 'a', 'g', 2, 2, 2, 2]
 
+# ---------------------------------- INDEX -----------------------------------------
+#
+# number = my_list.index(2)               # first index where can find number 2 is index 1
+# print(number)
+#
+# Result
+# 1
