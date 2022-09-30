@@ -1,0 +1,14 @@
+my_list = [1, 2, 3, 4, "b", "a", "g", 2, 2, 2, 2]
+my_numbers_list = [1, 2, 3, 4, 2, 2, 2, 2]
+my_letters_list = ["k", "a", "c", "m"]
+
+# --------------------------------- APPEND ---------------------------------------
+
+# indexes = []
+# for index, element in enumerate(my_numbers_list):
+#     if int(element) == 2:                          # for every index with number 2
+#         indexes.append(index)                      # add indexes in new list
+# print(indexes)
+
+# Result
+# [1, 4, 5, 6, 7]
