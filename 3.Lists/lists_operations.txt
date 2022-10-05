@@ -113,3 +113,12 @@ my_letters_list = ["k", "a", "c", "m"]
 # my_second_list.remove(2)                    # be modified simultaneously
 # print(my_list)
 # print(my_second_list)
+# ---------------------------------- MIN -----------------------------------------
+
+# min_number = min(my_numbers_list)
+# print(min_number)
+
+# ---------------------------------- MAX -----------------------------------------
+
+# max_number = min(my_numbers_list)
+# print(max_number)
