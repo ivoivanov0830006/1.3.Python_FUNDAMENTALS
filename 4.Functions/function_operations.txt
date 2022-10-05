@@ -1,0 +1,74 @@
+
+# ---------------------------------- LAMBDA --------------------------------------------
+
+# sum_numbers = lambda a, b, c, d: a + b + c + d
+# print(sum_numbers(1, 2, 3, 4))
+# Result:
+# 10
+#
+# result = list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4]))
+# print(result)
+# Result:
+# 2, 4
+
+# -------------------------------- RECURSION --------------------------------------------
+
+# import time
+#
+#
+# def countdown(number):
+#     time.sleep(1)
+#     print(number)
+#
+#     if number == 0:
+#         return
+#     else:
+#         countdown(number - 1)
+#
+#
+# countdown(int(input()))
+
+# --------------------------------- FILTER ----------------------------------------
+
+
+# def check_numbers(num):
+#     if num % 2 == 0:
+#         return True
+#     else:
+#         return False
+#
+#
+# my_numbers_list = [1, 2, 3, 4, 5, 6, 7, 8]
+# filtered_numbers = filter(check_numbers, my_numbers_list)
+# print(list(filtered_numbers))
+
+
+# --------------------------------- MAP ----------------------------------------
+# my_numbers_list = [1, 2, 3, 4, 5, 6, 7, 8]
+# numbers = list(map(float, input().split(", ")))
+# print(numbers)
+#
+# Input:
+# 1, 2, 3, 4, 5
+# Result:
+# [1.0, 2.0, 3.0, 4.0, 5.0]
+
+# # --------------------------------- RETURN ----------------------------------------
+
+# def example():
+#     a = 2 * 2
+#     return a
+#
+#
+# print(example)
+#
+#
+# # OR #
+#
+#
+# def example():
+#     a = 2 * 2
+#     print(a)
+#
+#
+# example()                       # There will be no NONE after the result in the console
