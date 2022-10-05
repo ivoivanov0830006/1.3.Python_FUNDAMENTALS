@@ -122,3 +122,11 @@ my_letters_list = ["k", "a", "c", "m"]
 
 # max_number = min(my_numbers_list)
 # print(max_number)
+
+# --------------------------------- FILTER ----------------------------------------
+
+# filtered_numbers = filter(lambda x: x % 2 == 0, my_numbers_list)
+# print(list(filtered_numbers))
+#
+# Result
+# [2, 4, 2, 2, 2, 2]
