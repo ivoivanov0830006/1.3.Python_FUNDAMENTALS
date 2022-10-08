@@ -42,3 +42,21 @@ print(f"{total:.2f}")
 #
 # total = orders(current_order, current_quantity)
 # print(f"{total:.2f}")
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# Write a function that calculates the total price of an order and returns it. The function should
+# receive one of the following products: "coffee", "coke", "water", or "snacks", and a quantity of
+# the product. The prices for a single piece of each product are:
+#   ⦁	coffee - 1.50
+#   ⦁	water - 1.00
+#   ⦁	coke - 1.40
+#   ⦁	snacks - 2.00
+# Print the result formatted to the second decimal place.
+# Input	                Output
+# water                 5.00
+# 5
+# -------------------------------
+# coffee                3.00
+# 2
