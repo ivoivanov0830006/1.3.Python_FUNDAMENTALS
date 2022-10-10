@@ -48,3 +48,27 @@ login(password)
 # if password_is_valid:
 #     print("Password is valid")
 #
+# ------------------------------------- Another Solution -----------------------------
+#
+# def login(input_pass):
+#     number_count = 0
+#     validation = []
+#     if len(input_pass) < 6 or len(input_pass) > 10:
+#         validation.append("Password must be between 6 and 10 characters")
+#     if not input_pass.isalnum():
+#         validation.append("Password must consist only of letters and digits")
+#     for char in input_pass:
+#         if char.isdigit():
+#             number_count += 1
+#     if number_count < 2:
+#         validation.append("Password must have at least 2 digits")
+#     return validation
+#
+#
+# password = input()
+# password_is_not_valid = login(password)
+# if len(password_is_not_valid) == 0:
+#     print("Password is valid")
+# else:
+#     print("\n".join(password_is_not_valid))
+#
