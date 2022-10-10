@@ -14,3 +14,18 @@ char_1 = input()
 char_2 = input()
 total_result = ascii_range(char_1, char_2)
 print(total_result)
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# Write a function that receives two characters and returns a single string with all the characters in
+# between them (according to the ASCII code), separated by a single space. Print the result on the console.
+# Input	                        Output
+# a                             b c
+# d
+# ------------------------------------------------------------------------------------------
+# #                             $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9
+# :
+# --------------------------------------------------------------------------------------------
+# #                             $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B
+# C
