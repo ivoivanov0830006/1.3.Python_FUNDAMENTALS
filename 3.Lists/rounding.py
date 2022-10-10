@@ -7,5 +7,9 @@ for string in input_list:
     round_list.append(round(number))
 print(round_list)
 
+# ------------------------------------- Another Solution -----------------------------
+#
+# result = list(map(lambda x: round(float(x)), input().split("")))
+# print(result)
 
 
