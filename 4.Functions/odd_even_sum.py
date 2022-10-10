@@ -25,3 +25,20 @@ sum_of_even_digits = sum_even(number_input)
 
 print(f"Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}")
 
+# ------------------------------------- Another Solution -----------------------------
+#
+# def even_sum_and_odd_sum(number):
+#     sum_odd = 0
+#     sum_even = 0
+#     for digit in number:
+#         if int(digit) % 2 == 0:
+#             sum_even += int(digit)
+#         else:
+#             sum_odd += int(digit)
+#     return sum_even, sum_odd
+#
+#
+# number_string = input()
+# sum_of_odd_digits, sum_of_even_digits = even_sum_and_odd_sum(number_string)
+# print(f"Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}")
+#
