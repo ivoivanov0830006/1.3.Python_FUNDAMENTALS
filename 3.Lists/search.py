@@ -14,3 +14,20 @@ for _ in range(1, input_number + 1):
 
 print(default_list)
 print(fixed_list)
+
+# --------------------------- Another solution ----------------------------
+#
+# total_strings = int(input())
+# key_word = input()
+# new_list = []
+# filtered_list = []
+#
+# for _ in range(total_strings):
+#     current_string = input()
+#     new_list.append(current_string)
+# print(new_list)
+# for num in range(len(new_list) - 1, -1, -1):
+#     word = new_list[num]
+#     if key_word not in word:
+#         new_list.remove(word)
+# print(new_list)
