@@ -44,3 +44,10 @@ print(fixed_list)
 # I study at SoftUni
 # I walk to work
 # I learn Python at SoftUni
+# ------------------------------------------------------------------------------------------------------
+# 4                                 ["I love tomatoes", "I can eat tomatoes forever",
+# tomatoes                          "I don't like apples", "Yesterday I ate two tomatoes"]
+# I love tomatoes                   ["I love tomatoes", "I can eat tomatoes forever",
+# I can eat tomatoes forever         "Yesterday I ate two tomatoes"]
+# I don't like apples
+# Yesterday I ate two tomatoes
