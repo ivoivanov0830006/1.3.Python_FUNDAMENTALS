@@ -31,3 +31,16 @@ print(fixed_list)
 #     if key_word not in word:
 #         new_list.remove(word)
 # print(new_list)
+#
+# --------------------------- Problem to resolve -----------------------------
+#
+# On the first line, you will receive a number n. On the second line, you will receive a word.
+# On the following n lines, you will be given some strings. You should add them to a list and
+# print them. After that, you should filter out only the strings that include the given word
+# and print that list too.
+# Input	                            Output
+# 3                                 ["I study at SoftUni", "I walk to work", "I learn Python at SoftUni"]
+# SoftUni                           ["I study at SoftUni", "I learn Python at SoftUni"]
+# I study at SoftUni
+# I walk to work
+# I learn Python at SoftUni
