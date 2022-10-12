@@ -149,3 +149,12 @@ my_letters_list = ["k", "a", "c", "m"]
 # my_numbers_list.clear()
 # Result:
 # []
+
+
+# ----------------------------------- SWAP ----------------------------------------
+#
+# lst = [1, 2, 3, 4]
+# print("list before swapping:", lst)
+#
+# lst[1], lst[2] = lst[2], lst[1]
+# print("list after swapping:", lst)
