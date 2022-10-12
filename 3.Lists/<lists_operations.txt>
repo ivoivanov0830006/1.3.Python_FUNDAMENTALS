@@ -88,23 +88,23 @@ my_letters_list = ["k", "a", "c", "m"]
 
 
 # ---------------------------------- REVERSE -----------------------------------------
-
+#
 # my_list.reverse()
 # Result
 # [2, 2, 2, 2, 'g', 'a', 'b', 4, 3, 2, 1]
-
+#
 # print(my_numbers_list[::-1])
 # Result
 # [2, 2, 2, 2, 'g', 'a', 'b', 4, 3, 2, 1]
-
+#
 # print(my_numbers_list[:3])
 # Result
 # [2, 2, 2, 2]
-
+#
 # print(my_numbers_list[3:])
 # Result
 # [4, 'b', 'a', 'g', 2, 2, 2, 2]
-
+#
 # print(my_numbers_list[3:5])
 # Result
 # [2, 2, 2, 2]
@@ -125,20 +125,32 @@ my_letters_list = ["k", "a", "c", "m"]
 # my_second_list.remove(2)                    # be modified simultaneously
 # print(my_list)
 # print(my_second_list)
-# ---------------------------------- MIN -----------------------------------------
 
+
+# ---------------------------------- MIN -----------------------------------------
+#
 # min_number = min(my_numbers_list)
 # print(min_number)
 
-# ---------------------------------- MAX -----------------------------------------
 
+# ---------------------------------- MAX -----------------------------------------
+#
 # max_number = min(my_numbers_list)
 # print(max_number)
 
-# --------------------------------- FILTER ----------------------------------------
 
+# --------------------------------- FILTER ----------------------------------------
+#
 # filtered_numbers = filter(lambda x: x % 2 == 0, my_numbers_list)
 # print(list(filtered_numbers))
 #
 # Result
 # [2, 4, 2, 2, 2, 2]
+
+
+# --------------------------------- EXTEND ----------------------------------------
+#
+# my_numbers_list.extend([4, 5])
+#
+# Result:
+# [1, 2, 3, 4, 2, 2, 2, 2, 4, 5]
