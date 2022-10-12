@@ -158,3 +158,11 @@ my_letters_list = ["k", "a", "c", "m"]
 #
 # lst[1], lst[2] = lst[2], lst[1]
 # print("list after swapping:", lst)
+
+
+# ----------------------------------- SET ----------------------------------------
+#
+# numbers = [1, 2, 2, 2, 3, 4, 5, 5, 6]
+# unique_numbers = list(set(numbers))
+# Result:
+# [1, 2, 3, 4, 5, 6]
