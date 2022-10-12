@@ -88,14 +88,26 @@ my_letters_list = ["k", "a", "c", "m"]
 
 
 # ---------------------------------- REVERSE -----------------------------------------
-#
+
 # my_list.reverse()
-# print(my_numbers_list)
-# print(my_numbers_list[::-1])
-#
 # Result
 # [2, 2, 2, 2, 'g', 'a', 'b', 4, 3, 2, 1]
-# [1, 2, 3, 4, 'b', 'a', 'g', 2, 2, 2, 2]
+
+# print(my_numbers_list[::-1])
+# Result
+# [2, 2, 2, 2, 'g', 'a', 'b', 4, 3, 2, 1]
+
+# print(my_numbers_list[:3])
+# Result
+# [2, 2, 2, 2]
+
+# print(my_numbers_list[3:])
+# Result
+# [4, 'b', 'a', 'g', 2, 2, 2, 2]
+
+# print(my_numbers_list[3:5])
+# Result
+# [2, 2, 2, 2]
 
 
 # ---------------------------------- DEL -----------------------------------------
