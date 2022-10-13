@@ -14,4 +14,15 @@ print("".join(result))
 #         result += letter
 #
 # print(result)
+
+
+# ------------------------------------- Problem to resolve ------------------------------
 #
+# Using comprehension, write a program that receives a text and removes all its vowels,
+# case insensitive. Print the new text string after removing the vowels. The vowels that should be
+# considered are 'a', 'o', 'u', 'e', 'i'.
+#
+# Input                 Output
+# Python                Pythn
+# -----------------------------------
+# ILovePython           LvPythn
