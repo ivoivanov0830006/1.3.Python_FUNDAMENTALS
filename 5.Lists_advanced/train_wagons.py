@@ -40,3 +40,15 @@ print(train)
 # insert 0 15
 # leave 0 5
 # End
+# --------------------------------------------------------
+# 5                                 [16, 32, 100, 0, 105]
+# add 10
+# add 20
+# insert 0 16
+# insert 1 44
+# leave 1 12
+# insert 2 100
+# insert 4 61
+# leave 4 1
+# add 15
+# End
