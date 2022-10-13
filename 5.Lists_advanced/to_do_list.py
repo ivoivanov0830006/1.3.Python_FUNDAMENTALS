@@ -40,3 +40,23 @@ print(final_list)
 #
 # print(sorted_tasks)
 
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# You will be receiving to-do notes until you get the command "End". The notes will be in the format:
+#   "{importance}-{note}".
+# Return a list containing all to-do notes sorted by importance in ascending order.
+# The importance value will always be an integer between 1 and 10 (inclusive).
+# Input	                            Output
+# 2-Walk the dog                    ['Drink coffee', 'Walk the dog', 'Work', 'Dinner']
+# 1-Drink coffee
+# 6-Dinner
+# 5-Work
+# End
+# ---------------------------------------------------------------------------------------
+# 3-C                               ['B', 'A', 'C', 'V']
+# 2-A
+# 1-B
+# 6-V
+# End
+
