@@ -55,9 +55,12 @@ print(string_wagons)
 #       First state - 4 0 0 0 -> 11 people left
 #       Second state – 4 4 0 0 -> 7 people left
 #       Third state – 4 4 4 0 -> 3 people left
+#
 # --------------------------------------------------------------
 # 20                        There isn't enough space! 10 people in a queue!
 # 0 2 0	                    4 4 4
+#
 #       First state - 4 2 0  -> 16 people left
 #       Second state – 4 4 0  -> 14 people left
 #       Third state – 4 4 4 -> 10 people left, but there a00re no more wagons.
+#
