@@ -74,3 +74,14 @@ if not failed:
 #                                                               You found 100 bitcoins.
 #                                                               You died! Killed by boss.
 #                                                               Best room: 6
+# ---------------------------------------------------------------------------------------
+# cat 10|potion 30|orc 10|chest 10|snake 25|chest 110	        You slayed cat.
+#                                                               You healed for 10 hp.
+#                                                               Current health: 100 hp.
+#                                                               You slayed orc.
+#                                                               You found 10 bitcoins.
+#                                                               You slayed snake.
+#                                                               You found 110 bitcoins.
+#                                                               You've made it!
+#                                                               Bitcoins: 120
+#                                                               Health: 65
