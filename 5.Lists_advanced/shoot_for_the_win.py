@@ -56,3 +56,9 @@ print(f"Shot targets: {count} -> {' '.join(list(map(str, sequence)))}")
 # 3
 # 1
 # End
+# ----------------------------------------------------------------
+# 5                         Shot targets: 4 -> -1 120 -1 66 -1 -1
+# 2
+# 4
+# 0
+# End
