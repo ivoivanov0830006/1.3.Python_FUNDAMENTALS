@@ -65,3 +65,12 @@ if not failed:
 # You receive a string representing the dungeon's rooms, separated with '|' (vertical bar):"room1|room2|room3…".
 # Output
 # Print the corresponding messages described above.
+# Input	                                                        Output
+# rat 10|bat 20|potion 10|rat 10|chest 100|boss 70|chest 1000	You slayed rat.
+#                                                               You slayed bat.
+#                                                               You healed for 10 hp.
+#                                                               Current health: 80 hp.
+#                                                               You slayed rat.
+#                                                               You found 100 bitcoins.
+#                                                               You died! Killed by boss.
+#                                                               Best room: 6
