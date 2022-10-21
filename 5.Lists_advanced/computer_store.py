@@ -58,3 +58,15 @@ else:
 # 18.50                             Total price: 1876.35$
 # 16.86
 # special
+# -----------------------------------------------------------------------------------------
+# 1023                              Invalid price!
+# 15                                Invalid price!
+# -20                               Congratulations you've just bought a new computer!
+# -5.50                             Price without taxes: 1544.96$
+# 450                               Taxes: 308.99$
+# 20                                -----------
+# 17.66                             Total price: 1853.95$
+# 19.30
+# regular
+# ----------------------------------------------------------------------------------------
+# regular	                        Invalid order!
