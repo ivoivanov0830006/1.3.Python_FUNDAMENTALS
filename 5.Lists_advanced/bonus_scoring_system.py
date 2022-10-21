@@ -71,3 +71,17 @@ print(f"The student has attended {max_attendances} lectures.")
 # 24
 # 16
 # 20
+# ------------------------------------------------------------
+# 10                    Max Bonus: 18.
+# 30                    The student has attended 28 lectures.
+# 14
+# 8
+# 23
+# 27
+# 28
+# 15
+# 17
+# 25
+# 26
+# 5
+# 18
