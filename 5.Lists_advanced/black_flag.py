@@ -16,7 +16,8 @@ else:
     print(f"Collected only {percentage_left:.2f}% of the plunder.")
 
     
-  
+# ------------------------------------- Problem to resolve ------------------------------
+#
 # Create a program that checks if target plunder is reached. First, you will receive how many days the
 # pirating lasts. Then you will receive how much the pirates plunder for a day. Last you will receive
 # the expected plunder at the end.
