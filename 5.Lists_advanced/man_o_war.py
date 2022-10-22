@@ -70,3 +70,10 @@ while True:
 # 1 0                               Congrats! You have found matching elements - -2a!
 # 1 0                               Sorry you lose :(
 # end	                            4 4 5 5
+# --------------------------------------------------------------------------------------
+# a 2 4 a 2 4                       Congrats! You have found matching elements - a!
+# 0 3                               Congrats! You have found matching elements - 2!
+# 0 2                               Congrats! You have found matching elements - 4!
+# 0 1                               You have won in 3 turns!
+# 0 1
+# end
