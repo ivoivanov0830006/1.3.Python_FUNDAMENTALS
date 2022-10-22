@@ -50,3 +50,11 @@ print(*array, sep=", ")
 # multiply 2 1
 # decrease
 # end
+# -------------------------------------------------------------------------
+# 1 2 3 4                           1, 11, 3, 0
+# swap 0 1
+# swap 1 2
+# swap 2 3
+# multiply 1 2
+# decrease
+# end
