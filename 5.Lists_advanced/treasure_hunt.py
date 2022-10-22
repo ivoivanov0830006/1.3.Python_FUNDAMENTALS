@@ -79,3 +79,11 @@ else:
 # Drop 3
 # Steal 3
 # Yohoho!
+# --------------------------------------------------------------------------------------
+# Input                                     Output
+# Diamonds|Silver|Shotgun|Gold              Coal, Diamonds, Silver, Shotgun, Gold, Medals
+# Loot Silver Medals Coal                   Failed treasure hunt.
+# Drop -1
+# Drop 1
+# Steal 7
+# Yohoho!
