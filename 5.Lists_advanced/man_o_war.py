@@ -77,3 +77,10 @@ while True:
 # 0 1                               You have won in 3 turns!
 # 0 1
 # end
+# --------------------------------------------------------------------------------------
+# a 2 4 a 2 4                       Try again!
+# 4 0                               Try again!
+# 0 2                               Try again!
+# 0 1                               Try again!
+# 0 1                               Sorry you lose :(
+# end	                            a 2 4 a 2 4
