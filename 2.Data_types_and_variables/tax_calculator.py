@@ -35,3 +35,17 @@ for car in car_list:
     total_tax += initial_tax
 
 print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.")
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# Write a program that calculates the needed provision for a quest in the woods.
+# First you will receive the days of the adventure, the count of the players and the group's
+# energy. Afterward you will receive provision for a day for one person:
+#           * Water
+#           * Food
+# The group calculates how many supplies they'd need for the adventure and takes that much water
+# and food.
+# Every day they chop wood an lose certain amount of energy. For each of the days you are going
+# to receive the amount of energy lost from chopping wood. The program should end if the energy
+# reaches 0 or less.
