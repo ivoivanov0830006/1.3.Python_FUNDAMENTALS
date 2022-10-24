@@ -70,8 +70,19 @@ else:
 #   * "You are ready for the quest. You will be left with - {energyLevel} energy!"
 #   * "You will run out of energy. You will be left with {food} food and {water} water."
 # The final numbers should be formatted to the second digit after decimal separator
-
-print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.")
-
-
-# ------------------------------------- Problem to resolve ------------------------------
+# Input	            Output
+# 10                You are ready for the quest. You will be left with - 658.72 energy!
+# 7
+# 5035.5
+# 11.3
+# 7.2
+# 942.3
+# 500.57
+# 520.68
+# 540.87
+# 505.99
+# 630.3
+# 784.20
+# 321.21
+# 456.8
+# 330
