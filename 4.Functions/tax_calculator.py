@@ -40,6 +40,9 @@ for car in car_list:
     elif type_car == "heavyDuty":
         tax = heavy_duty_car(distance, years)
         
+    elif type_car == "sports":
+        tax = sports_car(distance, years)
+        
         
 # ------------------------------------- Another Solution -----------------------------
 #
