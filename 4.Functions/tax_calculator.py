@@ -42,6 +42,10 @@ for car in car_list:
         
     elif type_car == "sports":
         tax = sports_car(distance, years)
+   
+    else:
+        print("Invalid car type.")
+        continue
         
         
 # ------------------------------------- Another Solution -----------------------------
