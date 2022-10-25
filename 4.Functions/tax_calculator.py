@@ -23,6 +23,10 @@ def sports_car(current_distance, current_years):
     if distance >= 2000:
         current_tax += 18 * multiplier
     return current_tax
+
+
+car_list = input().split(">>")
+total_tax = 0
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
