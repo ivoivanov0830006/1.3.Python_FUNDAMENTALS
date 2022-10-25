@@ -110,3 +110,14 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 #       increases by 14 euros for every 9000km traveled.
 #       - for sports car, the tax declines by 9 euros for every year in use. Also the tax
 #       increases by 18 euros for every 3000km traveled.
+# Input
+# The possible commands are:
+# "vehicle1>>vehicle2>>vehicle3…"
+# "family"
+# "heavyDuty"
+# "sports"
+# Output
+# The possible outputs are:
+# "Invalid car type."
+# "A {car type} car will pay {total tax to pay} euros in taxes."
+# "The NRA will collect {total tax collected} euros in taxes."
