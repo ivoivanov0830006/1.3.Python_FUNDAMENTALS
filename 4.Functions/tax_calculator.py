@@ -99,3 +99,8 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 # by ">>", where the first element is a string representing the car type, second - integer for
 # the years the tax should be paid and the third - integer with kilometers traveled.
 # There are 3 valid types of vehicles:
+#       * family - the initial tax for a family car is 50 euros.
+#       * heavyDuty - the initial tax for heavy-duty is 80 euros.
+#       * sports - the initial tax for sports car is 100 euros.
+# If the car is not valid print: "Invalid car type." and continue to the next vehicle.
+# When calculating tax keep in mind the following rules:
