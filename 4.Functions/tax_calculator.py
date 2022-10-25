@@ -104,3 +104,9 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 #       * sports - the initial tax for sports car is 100 euros.
 # If the car is not valid print: "Invalid car type." and continue to the next vehicle.
 # When calculating tax keep in mind the following rules:
+#       - for family car, the tax declines by 5 euros for every year in use. Also the tax
+#       increases by 12 euros for every 3000km traveled.
+#       - for heavy-duty, the tax declines by 8 euros for every year in use. Also the tax
+#       increases by 14 euros for every 9000km traveled.
+#       - for sports car, the tax declines by 9 euros for every year in use. Also the tax
+#       increases by 18 euros for every 3000km traveled.
