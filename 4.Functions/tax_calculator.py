@@ -128,3 +128,11 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 #                                               A heavyDuty car will pay 50.00 euros in taxes.
 #                                               A sports car will pay 118.00 euros in taxes.
 #                                               The NRA will collect 227.00 euros in taxes.
+# --------------------------------------------------------------------------------------------
+# family 5 3210>>pickUp 1 1345>>heavyDuty 7     A family car will pay 37.00 euros in taxes.
+# 21000>>sports 5 9410>>family 3 9012	        Invalid car type.
+#                                               A heavyDuty car will pay 52.00 euros in taxes.
+#                                               A sports car will pay 127.00 euros in taxes.
+#                                               A family car will pay 71.00 euros in taxes.
+#                                               The NRA will collect 287.00 euros in taxes.
+#
