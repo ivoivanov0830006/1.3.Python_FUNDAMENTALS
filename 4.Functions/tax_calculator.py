@@ -1,3 +1,11 @@
+def family_car(current_distance, current_years):
+    current_tax = 50
+    current_tax -= 5 * current_years
+    multiplier = current_distance // 3000
+    if current_distance >= 3000:
+        current_tax += 12 * multiplier
+    return current_tax
+
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
