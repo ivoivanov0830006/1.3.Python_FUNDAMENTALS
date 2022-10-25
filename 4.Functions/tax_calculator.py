@@ -121,3 +121,10 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 # "Invalid car type."
 # "A {car type} car will pay {total tax to pay} euros in taxes."
 # "The NRA will collect {total tax collected} euros in taxes."
+# Examples
+# Input	                                        Output
+# family 3 7210>>van 4 2345>>heavyDuty 9        A family car will pay 59.00 euros in taxes.
+# 31000>>sports 4 7410	                        Invalid car type.
+#                                               A heavyDuty car will pay 50.00 euros in taxes.
+#                                               A sports car will pay 118.00 euros in taxes.
+#                                               The NRA will collect 227.00 euros in taxes.
