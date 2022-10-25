@@ -47,6 +47,11 @@ for car in car_list:
         print("Invalid car type.")
         continue
         
+    print(f"A {type_car} car will pay {tax:.2f} euros in taxes.")
+    total_tax += tax
+
+print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.")
+
         
 # ------------------------------------- Another Solution -----------------------------
 #
