@@ -33,6 +33,11 @@ for car in car_list:
     type_car = command[0]
     years = int(command[1])
     distance = int(command[2])
+    
+    if type_car == "family":
+        tax = family_car(distance, years)
+        
+        
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
