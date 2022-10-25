@@ -14,6 +14,15 @@ def heavy_duty_car(current_distance, current_years):
     if current_distance >= 9000:
         current_tax += 14 * multiplier
     return current_tax
+
+
+def sports_car(current_distance, current_years):
+    current_tax = 100
+    current_tax -= 9 * current_years
+    multiplier = current_distance // 2000
+    if distance >= 2000:
+        current_tax += 18 * multiplier
+    return current_tax
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
