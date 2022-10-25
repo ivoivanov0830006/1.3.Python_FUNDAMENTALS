@@ -6,6 +6,14 @@ def family_car(current_distance, current_years):
         current_tax += 12 * multiplier
     return current_tax
 
+
+def heavy_duty_car(current_distance, current_years):
+    current_tax = 80
+    current_tax -= 8 * current_years
+    multiplier = current_distance // 9000
+    if current_distance >= 9000:
+        current_tax += 14 * multiplier
+    return current_tax
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
