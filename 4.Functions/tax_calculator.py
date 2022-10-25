@@ -92,3 +92,10 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 #     total_tax += initial_tax
 # 
 # print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.")
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+# You will be given a string representing vehicles that will be taxed. Each vehicle is separated
+# by ">>", where the first element is a string representing the car type, second - integer for
+# the years the tax should be paid and the third - integer with kilometers traveled.
+# There are 3 valid types of vehicles:
