@@ -27,6 +27,12 @@ def sports_car(current_distance, current_years):
 
 car_list = input().split(">>")
 total_tax = 0
+
+for car in car_list:
+    command = car.split()
+    type_car = command[0]
+    years = int(command[1])
+    distance = int(command[2])
 # ------------------------------------- Another Solution -----------------------------
 #
 # car_list = input().split(">>")
