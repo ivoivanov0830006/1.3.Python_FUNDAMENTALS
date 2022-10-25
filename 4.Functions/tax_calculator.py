@@ -36,6 +36,9 @@ for car in car_list:
     
     if type_car == "family":
         tax = family_car(distance, years)
+    
+    elif type_car == "heavyDuty":
+        tax = heavy_duty_car(distance, years)
         
         
 # ------------------------------------- Another Solution -----------------------------
