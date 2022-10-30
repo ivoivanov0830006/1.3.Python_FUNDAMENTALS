@@ -33,6 +33,7 @@ print(first_movie)
 print(second_movie)
 print(third_movie)
 
+
 # ------------------------------------- Problem to resolve ------------------------------
 #
 # Create a class Movie. The __init__ method should receive a name and a director. It should also have a
@@ -46,3 +47,21 @@ print(third_movie)
 #   * __repr__() - returns
 #       "Movie name: {name}; Movie director: {director}. Total watched movies: {__watched_movies}"
 #
+# -------------------------------------- Example inputs ----------------------------------
+# Test Code
+# first_movie = Movie("Inception", "Christopher Nolan")
+# second_movie = Movie("The Matrix", "The Wachowskis")
+# third_movie = Movie("The Predator", "Shane Black")
+# first_movie.change_director("Me")
+# third_movie.change_name("My Movie")
+# first_movie.watch()
+# third_movie.watch()
+# first_movie.watch()
+# print(first_movie)
+# print(second_movie)
+# print(third_movie)
+# ------------------
+# Output
+# Movie name: Inception; Movie director: Me. Total watched movies: 2
+# Movie name: The Matrix; Movie director: The Wachowskis. Total watched movies: 2
+# Movie name: My Movie; Movie director: Shane Black. Total watched movies: 2
