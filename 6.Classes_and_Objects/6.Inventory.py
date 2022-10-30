@@ -38,3 +38,17 @@ print(inventory)
 #       * __repr__() - returns "Items: {items}.\nCapacity left: {left_capacity}".
 #           The items should be separated by ", "
 #
+# -------------------------------------- Example inputs ----------------------------------
+# Test Code
+# inventory = Inventory(2)
+# inventory.add_item("potion")
+# inventory.add_item("sword")
+# print(inventory.add_item("bottle"))
+# print(inventory.get_capacity())
+# print(inventory)
+# ----------------
+# Output
+# not enough room in the inventory
+# 2
+# Items: potion, sword.
+# Capacity left: 0
