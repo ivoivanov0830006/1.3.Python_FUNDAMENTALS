@@ -27,3 +27,29 @@ elif diagonal_1.count(2) == 3 or diagonal_2.count(2) == 3:
 
 else:
     print("Draw!")
+    
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# You will receive a field of a tic-tac-toe game in three lines containing numbers, separated by a
+# single space.
+# Legend:
+#   0 - empty space
+#   1 - first player move
+#   2 - second player move
+# Find out who the winner is. If the first player wins, print "First player won". If the second player wins,
+# print "Second player won". Otherwise, print "Draw!".
+#
+# -------------------------------------- Example inputs ----------------------------------
+# Input	                    Output
+# 2 0 1                       First player won
+# 0 1 0
+# 1 0 2
+# -----------------------------------------------
+# 0 1 0                       Second player won
+# 2 2 2
+# 1 0 0
+# -----------------------------------------------
+# 1 0 2                       Draw!
+# 0 1 2
+# 1 2 0
