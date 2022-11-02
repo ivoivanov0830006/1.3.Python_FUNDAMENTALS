@@ -41,3 +41,16 @@ print(bakery)
 #         break
 #
 # print(bakery)
+
+
+# ------------------------------------- Another Solution -----------------------------
+#
+# products = input().split()
+# bakery = {}
+#
+# for index in range(0, len(products), 2):
+#     key = products[index]
+#     value = products[index + 1]
+#     bakery[key] = int(value)
+#
+# print(bakery)
