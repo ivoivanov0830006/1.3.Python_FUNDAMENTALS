@@ -10,3 +10,19 @@ for char in text:
 
 for key, value in letters.items():
     print(f"{key} -> {value}")
+    
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# Write a program that counts all characters in a string except for space (" ").
+# Print all the occurrences in the following format:
+# "{char} -> {occurrences}"
+# -------------------------------------- Example inputs ----------------------------------
+# Input	                Output
+# text	                t -> 2
+#                       e -> 1
+#                       x -> 1
+# ------------------------------
+# text text text        t -> 6
+# 	                    e -> 3
+#                       x -> 3
