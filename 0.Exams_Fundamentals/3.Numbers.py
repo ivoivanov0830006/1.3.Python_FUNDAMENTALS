@@ -1,6 +1,13 @@
+sequence = list(map(int, input().split()))
+new_list = [num for num in sequence if num > (sum(sequence) / len(sequence))]
+
+if len(new_list) < 1:
+    print("No")
+new_list.sort(reverse=True)
+print(*new_list[:5], sep=" ")
 
 
-# --------------------------- Problem to resolve -----------------------------
+# ---------------------------------- Problem to resolve ---------------------------------
 #
 # Write a program to read a sequence of integers and find and print the top 5 numbers greater than the
 # average value in the sequence, sorted in descending order.
@@ -13,7 +20,7 @@
 # Constraints
 # All input numbers are integers in the range [-1000000 … 1000000].
 # The count of numbers is in the range [1…10 000].
-# Examples
+# -------------------------------------- Example inputs ----------------------------------
 # Input	                                    Output
 # 10 20 30 40 50	                        50 40
 # -------------------------------------------------------------------
