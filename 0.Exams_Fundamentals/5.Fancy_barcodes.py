@@ -1,3 +1,35 @@
+import re
+
+barcodes_count = int(input())
+all_products = []
+for _ in range(barcodes_count):
+    current_product = input()
+    all_products.append(current_product)
+
+all_matches = {}
+
+input_text = " ".join(all_products)
+pattern_product = r"(@#+(?P<product>[A-Z][A-Za-z0-9]{4,}[A-Z])@#+)"
+matches = re.findall(pattern_product, input_text)
+for match in matches:
+    product = match[0]
+    group_number = ""
+    count = 0
+    for char in product:
+        if char.isdigit():
+            group_number += char
+            count += 1
+    if count == 0:
+        group_number = "00"
+    all_matches[product] = group_number
+
+for product in all_products:
+    if product not in all_matches:
+        print("Invalid barcode")
+    else:
+        print(f"Product group: {all_matches[product]}")
+
+
 # ------------------------------------- Another Solution -----------------------------
 #
 # import re
