@@ -1,0 +1,56 @@
+import re
+
+input_text = input()
+
+title_pattern = r"<title>(.+)<\/title>"
+title_items = re.search(title_pattern, input_text)
+title = title_items.group(1)
+
+
+body_pattern = r"<body>(.+)<\/body>"
+body_items = re.search(body_pattern, input_text)
+body = body_items.group(0)
+
+
+remove_pattern = r">([^><]*)<"  # r"(?<=>)([^<>]*)(?=<)*"
+content_items = re.findall(remove_pattern, body)
+
+clean_content = []
+
+for item in content_items:
+    if "\\n" in item:
+        item = item.replace("\\n", "")
+    clean_content.append(item)
+
+content = "".join(clean_content)
+
+print(f"Title: {title}")
+print(f"Content: {content}")
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# Write a program that extracts a title and all the content of a HTML file:
+#   * The title should be between the HTML tags <title> and <\title>. 
+#   * The content should be between the HTML tags <body> and <\body>.
+# There might be different HTML tags, which you should ignore: 
+#   * Each HTML tag is surrounded by the symbols "<" and ">". For example: <body>, <p>, <\html>
+#   * You also should ignore the HTML tag "\n"
+# Example: "<html>\n<head><title>News</title></head>\n<body><p><a 
+# href="https://softuni.bg">SoftUni</a>aims to provide free real-world practical\n training for young people 
+# who want to turn into\n skillful Python software engineers.</p></body>\n</html>"
+# In this example the title is "News" and the content is "SoftUni aims to provide......"
+# Input
+# The input will be read from the console. 
+# The input consists of a single line.
+# Output
+# When you extract the title and the content, you should print the result in the following format:
+# "Title: {extracted title}"
+# "Content: {extracted content}"
+# -------------------------------------- Example inputs ----------------------------------
+# Input
+# <html>\n<head><title>Some title</title></head>\n<body>Here<p> is some </
+# p>content <a href="www.somesite.com">\nclick</body>\n</html>
+# Output
+# Title: Some title
+# Content: Here is some content click
