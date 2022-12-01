@@ -25,6 +25,23 @@ while True:
 #     line = input()
 
 
+# ------------------------------------- Another Solution -----------------------------
+#
+# import re
+#
+# numbers = []
+# while True:
+#     text = input()
+#     if not text:
+#         break
+#     pattern = r"\d+"
+#     matches = re.findall(pattern, text)
+#     if matches:
+#         numbers.extend(matches) # not append because if there are 2 numbers in line they will be in [x,y]
+#
+# print(*numbers, sep=" ")
+
+
 # ------------------------------------- Problem to resolve ------------------------------
 #
 # Write a program that receives strings on different lines and extracts only the numbers. Print all
