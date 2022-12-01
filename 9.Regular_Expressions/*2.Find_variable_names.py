@@ -12,6 +12,17 @@ for result in results:
 print(",".join(valid_strings))
 
 
+# ------------------------------------- Another Solution -----------------------------
+#
+# import re
+#
+# text = input()
+# pattern = r"\b_[a-zA-Z0-9]+\b"
+#
+# found_names = re.findall(pattern, text)
+# print(",".join(found_names))
+
+
 # ------------------------------------- Problem to resolve ------------------------------
 #
 # Write a program that finds all variable names in each string. A variable name starts with an
