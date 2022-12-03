@@ -48,6 +48,7 @@ print(string_wagons)
 #     {wagons separated by ' '}"
 # If the lift is full and there are no more people in the queue, you should print only
 # the wagons separated by " "
+# -------------------------------------- Example inputs ----------------------------------
 # Input	                    Output
 # 15                        The lift has empty spots!
 # 0 0 0 0	                4 4 4 3
