@@ -41,6 +41,7 @@ print(*array, sep=", ")
 # Elements of the array will be integer numbers in the range [-231...231]
 # Count of the array elements will be in the range [2...100]
 # Indexes will be always in the range of the array
+# -------------------------------------- Example inputs ----------------------------------
 # Input	                            Output
 # 23 -2 321 87 42 90 -123           86, 7382, 2369942, -124, 41, 89, -3
 # swap 1 3
