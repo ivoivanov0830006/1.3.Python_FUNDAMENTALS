@@ -1,3 +1,32 @@
+def take_odd_func():
+    global final_password
+    current_password = ""
+    for index in range(len(final_password)):
+        if index % 2 != 0:
+            current_password += final_password[index]
+    final_password = current_password
+    return final_password
+
+
+def cut_func(current_data):
+    global final_password
+    start_index = int(current_data[1])
+    length = int(current_data[2])
+    end_index = start_index + length
+    final_password = final_password[:start_index] + final_password[end_index:]
+    return final_password
+
+
+def substitute_func(current_data):
+    global final_password
+    substring = current_data[1]
+    substitute = current_data[2]
+    if substring in final_password:
+        final_password = final_password.replace(substring, substitute)
+        return final_password
+    return "Nothing to replace!"
+
+
 password = input()
 final_password = password
 
@@ -5,30 +34,51 @@ while True:
     command = input()
     if command == "Done":
         break
-    action = command.split()[0]
+    current_command = command.split()
+    action = current_command[0]
     if action == "TakeOdd":
-        current_password = ""
-        for index in range(len(final_password)):
-            if index % 2 != 0:
-                current_password += final_password[index]
-        final_password = current_password
-        print(final_password)
+        print(take_odd_func())
     elif action == "Cut":
-        start_index = int(command.split()[1])
-        length = int(command.split()[2])
-        end_index = start_index + length
-        final_password = final_password[:start_index] + final_password[end_index:]
-        print(final_password)
+        print(cut_func(current_command))
     elif action == "Substitute":
-        substring = command.split()[1]
-        substitute = command.split()[2]
-        if substring in final_password:
-            final_password = final_password.replace(substring, substitute)
-            print(final_password)
-        else:
-            print("Nothing to replace!")
+        print(substitute_func(current_command))
 
 print(f"Your password is: {final_password}")
+
+
+# ------------------------------------- Another Solution -----------------------------
+#
+# password = input()
+# final_password = password
+#
+# while True:
+#     command = input()
+#     if command == "Done":
+#         break
+#     action = command.split()[0]
+#     if action == "TakeOdd":
+#         current_password = ""
+#         for index in range(len(final_password)):
+#             if index % 2 != 0:
+#                 current_password += final_password[index]
+#         final_password = current_password
+#         print(final_password)
+#     elif action == "Cut":
+#         start_index = int(command.split()[1])
+#         length = int(command.split()[2])
+#         end_index = start_index + length
+#         final_password = final_password[:start_index] + final_password[end_index:]
+#         print(final_password)
+#     elif action == "Substitute":
+#         substring = command.split()[1]
+#         substitute = command.split()[2]
+#         if substring in final_password:
+#             final_password = final_password.replace(substring, substitute)
+#             print(final_password)
+#         else:
+#             print("Nothing to replace!")
+#
+# print(f"Your password is: {final_password}")
 
 
 # ------------------------------------- Problem to resolve -----------------------------------------
