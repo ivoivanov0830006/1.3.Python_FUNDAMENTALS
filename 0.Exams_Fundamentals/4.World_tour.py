@@ -97,3 +97,9 @@ print(f"Ready for world tour! Planned stops: {final_string}")
 # Remove Stop:11:16                     Bulgaria::Rome-Greece
 # Switch:Hawai:Bulgaria                 Ready for world tour! Planned stops: Bulgaria::Rome-Greece
 # Travel
+# --------------------------------------------------------------------------------------
+# Albania:Bulgaria:Cyprus:Deuchland     AlbNigeriaania:Bulgaria:Cyprus:Deuchland
+# Add Stop:3:Nigeria                    AlbNaania:Bulgaria:Cyprus:Deuchland
+# Remove Stop:4:8                       AlbNaania:Bulgaria:Cyprus:Deuchland
+# Switch:Albania: Azərbaycan            Ready for world tour! Planned stops: AlbNaania:Bulgaria:Cyprus:Deuchland
+# Travel
