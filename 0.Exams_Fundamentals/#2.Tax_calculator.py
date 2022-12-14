@@ -92,3 +92,48 @@ print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.
 #     total_tax += initial_tax
 #
 # print(f"The National Revenue Agency will collect {total_tax:.2f} euros in taxes.")
+
+
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# You will be given a string representing vehicles that will be taxed. Each vehicle is separated
+# by ">>", where the first element is a string representing the car type, second - integer for
+# the years the tax should be paid and the third - integer with kilometers traveled.
+# There are 3 valid types of vehicles:
+#       * family - the initial tax for a family car is 50 euros.
+#       * heavyDuty - the initial tax for heavy-duty is 80 euros.
+#       * sports - the initial tax for sports car is 100 euros.
+# If the car is not valid print: "Invalid car type." and continue to the next vehicle.
+# When calculating tax keep in mind the following rules:
+#       - for family car, the tax declines by 5 euros for every year in use. Also the tax
+#       increases by 12 euros for every 3000km traveled.
+#       - for heavy-duty, the tax declines by 8 euros for every year in use. Also the tax
+#       increases by 14 euros for every 9000km traveled.
+#       - for sports car, the tax declines by 9 euros for every year in use. Also the tax
+#       increases by 18 euros for every 3000km traveled.
+# Input
+# The possible commands are:
+# "vehicle1>>vehicle2>>vehicle3…"
+# "family"
+# "heavyDuty"
+# "sports"
+# Output
+# The possible outputs are:
+# "Invalid car type."
+# "A {car type} car will pay {total tax to pay} euros in taxes."
+# "The NRA will collect {total tax collected} euros in taxes."
+# Examples
+# Input	                                        Output
+# family 3 7210>>van 4 2345>>heavyDuty 9        A family car will pay 59.00 euros in taxes.
+# 31000>>sports 4 7410	                        Invalid car type.
+#                                               A heavyDuty car will pay 50.00 euros in taxes.
+#                                               A sports car will pay 118.00 euros in taxes.
+#                                               The NRA will collect 227.00 euros in taxes.
+# --------------------------------------------------------------------------------------------
+# family 5 3210>>pickUp 1 1345>>heavyDuty 7     A family car will pay 37.00 euros in taxes.
+# 21000>>sports 5 9410>>family 3 9012	        Invalid car type.
+#                                               A heavyDuty car will pay 52.00 euros in taxes.
+#                                               A sports car will pay 127.00 euros in taxes.
+#                                               A family car will pay 71.00 euros in taxes.
+#                                               The NRA will collect 287.00 euros in taxes.
+#
