@@ -14,3 +14,20 @@ while command != "End":
     else:
         print(new_word)
     command = input()
+
+    
+# ------------------------------------- Problem to resolve ------------------------------
+#
+# You will be given strings until you receive the command "End". For each string given,
+# you should print a string in which each character (case-sensitive) is repeated twice.
+# Note that if you receive the string "SoftUni", you should NOT print it!
+# -------------------------------------- Example inputs ----------------------------------
+# Input	                Output
+# Hello World           HHeelllloo  WWoorrlldd
+# Repeat                RReeppeeaatt
+# End
+# ----------------------------------------------------------
+# 1234!                 11223344!!
+# SoftUni               ssooffttuunnii
+# softuni
+# End
