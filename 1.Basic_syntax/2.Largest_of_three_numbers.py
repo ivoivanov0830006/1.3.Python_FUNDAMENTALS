@@ -21,6 +21,7 @@ print(max(first_number, second_number, third_number))
 # --------------------------- Problem to resolve ----------------------------
 #
 # Write a program that receives three whole numbers and prints the largest one.
+# ----------------------------- Example inputs ------------------------------
 # Input	                Output
 # 3                     5
 # -1
