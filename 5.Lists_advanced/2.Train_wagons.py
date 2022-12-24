@@ -34,6 +34,7 @@ print(train)
 # no case in which the people will be more than the count in the wagon.
 # There will be no case in which the index is invalid!
 # After you receive the "End" command print the train.
+# -------------------------------------- Example inputs ----------------------------------
 # Input                             Output
 # 3                                 [10, 0, 20]
 # add 20
