@@ -16,6 +16,33 @@ print(f"You made {loaf_count} loaves of Easter bread! Now you have {colored_eggs
       f" {budget:.2f}BGN left.")
 
 
+# ------------------------------------ Another solution ---------------------------------
+#
+# budget = float(input())
+# flour_price_kg = float(input())
+# eggs_price_pack = round((0.75 * flour_price_kg), 2)
+# milk_price_liter = round((1.25 * flour_price_kg), 2)
+# bread_price_milk = round((flour_price_kg + eggs_price_pack + milk_price_liter), 2)
+# bread_price = round((flour_price_kg + eggs_price_pack), 2)
+# loaf_count = 0
+# colored_eggs = 0
+# current_budget = 0
+#
+# while budget > 0:
+#     current_budget = round(budget, 2)
+#     if loaf_count == 0 or loaf_count % 4 == 0:
+#         budget -= bread_price_milk
+#     else:
+#         budget -= bread_price
+#     if budget <= 0:
+#         break
+#     loaf_count += 1
+#     colored_eggs += 3
+#     if loaf_count % 3 == 0:
+#         colored_eggs -= (loaf_count - 2)
+# print(f"You made {loaf_count} loaves of Easter bread! Now you have {colored_eggs} eggs and {current_budget}BGN left.")
+
+
 # ------------------------------------- Problem to resolve ------------------------------
 #
 # Create a program that calculates how many loaves you can make (according to the recipe)
