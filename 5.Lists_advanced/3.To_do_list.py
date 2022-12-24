@@ -47,6 +47,7 @@ print(final_list)
 #   "{importance}-{note}".
 # Return a list containing all to-do notes sorted by importance in ascending order.
 # The importance value will always be an integer between 1 and 10 (inclusive).
+# -------------------------------------- Example inputs ----------------------------------
 # Input	                            Output
 # 2-Walk the dog                    ['Drink coffee', 'Walk the dog', 'Work', 'Dinner']
 # 1-Drink coffee
