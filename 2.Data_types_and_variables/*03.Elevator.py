@@ -19,3 +19,14 @@ print(total_courses)
 # else:
 #     total_courses = total_people // capacity + 1
 # print(int(total_courses))
+
+
+# --------------------------- Another solution ----------------------------
+
+# import math
+# total_people = int(input())
+# capacity = int(input())
+#
+# total_courses = math.ceil(total_people / capacity)
+#
+# print(total_courses)
