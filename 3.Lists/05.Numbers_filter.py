@@ -55,3 +55,34 @@ elif command_line == "positive":
 #
 # print(filtered_numbers)
 #
+#
+# --------------------------- Another solution ----------------------------
+#
+# number = int(input())
+# args = []
+# filtered = []
+#
+# for _ in range(number):
+#     current_number = int(input())
+#     args.append(current_number)
+# direction = input()
+# if direction == "even":
+#     for number in args:
+#         if number % 2 == 0:
+#             filtered.append(number)
+# elif direction == "odd":
+#     for number in args:
+#         if number % 2 != 0:
+#             filtered.append(number)
+# elif direction == "negative":
+#     for number in args:
+#         if number < 0:
+#             filtered.append(number)
+# elif direction == "positive":
+#     for number in args:
+#         if number >= 0:
+#             filtered.append(number)
+# print(filtered)
+#
+#
+#
